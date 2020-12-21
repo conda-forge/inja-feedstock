@@ -12,7 +12,7 @@ source:
     - patches/0001-Do-not-install-nlohmann-json-if-it-is-not-embedded-1.patch
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
