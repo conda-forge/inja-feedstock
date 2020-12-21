@@ -20,7 +20,8 @@ requirements:
     - make  # [unix]
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
-  host:
+    - nlohmann_json >=3.8.0
+  run:
     - nlohmann_json >=3.8.0
 
 test:
