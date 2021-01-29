@@ -1,5 +1,5 @@
 {% set name = "inja" %}
-{% set version = "3.1.0" %}
+{% set version = "3.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,10 @@ package:
 
 source:
   url: https://github.com/pantor/inja/archive/v{{ version }}.tar.gz
-  sha256: f4210493e7e3c62d3050ca6e5e9dd72823ec4125a469fa9b28519d7f32fc9731
-  patches:
-    - patches/0001-Do-not-install-nlohmann-json-if-it-is-not-embedded-1.patch
+  sha256: 825e1f0076504b5aac99cc9ad8c4cbfdc33e57c06c40353f2d7b93a33caae17d
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
@@ -43,7 +41,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'A Template Engine for Modern C++'
+  summary: A Template Engine for Modern C++
   description: |
     Inja is a template engine for modern C++, loosely inspired by jinja for python.
     It has an easy and yet powerful template syntax with all variables, loops,
