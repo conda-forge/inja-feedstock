@@ -10,14 +10,13 @@ source:
   sha256: e628d994762dcdaa9a97f63a9b8b73d9af51af0ffa5acea6bdbba0aceaf8ee25
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - cmake
     - make  # [unix]
     - {{ compiler('cxx') }}
-    - {{ stdlib("c") }}
     - nlohmann_json >=3.8.0
   run:
     - nlohmann_json >=3.8.0
