@@ -16,7 +16,6 @@ requirements:
   build:
     - cmake
     - make  # [unix]
-    - {{ compiler('c') }}
     - {{ compiler('cxx') }}
     - {{ stdlib("c") }}
     - nlohmann_json >=3.8.0
