@@ -8,4 +8,4 @@ github:
   tooling_branch_name: main
 test: native_and_emulated
 provider:
-    linux_aarch64: travis
+    linux_aarch64: emulated
