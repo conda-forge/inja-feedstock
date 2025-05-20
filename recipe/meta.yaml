@@ -17,6 +17,7 @@ requirements:
     - cmake
     - make  # [unix]
     - {{ compiler('cxx') }}
+    - {{ stdlib("c") }}
     - nlohmann_json >=3.8.0
   run:
     - nlohmann_json >=3.8.0
