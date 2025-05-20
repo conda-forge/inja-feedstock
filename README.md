@@ -23,7 +23,14 @@ Current build status
 ====================
 
 
-<table>
+<table><tr>
+    <td>Travis</td>
+    <td>
+      <a href="https://app.travis-ci.com/conda-forge/inja-feedstock">
+        <img alt="linux" src="https://img.shields.io/travis/com/conda-forge/inja-feedstock/main.svg?label=Linux">
+      </a>
+    </td>
+  </tr>
     
   <tr>
     <td>Azure</td>
@@ -41,6 +48,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11491&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/inja-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11491&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/inja-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -195,7 +209,7 @@ Feedstock Maintainers
 
 * [@andrewannex](https://github.com/andrewannex/)
 * [@jessemapel](https://github.com/jessemapel/)
-* [@kberryUSGS](https://github.com/kberryUSGS/)
 * [@kelvinrr](https://github.com/kelvinrr/)
+* [@krlberry](https://github.com/krlberry/)
 * [@scsides](https://github.com/scsides/)
 
